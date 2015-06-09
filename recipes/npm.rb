@@ -3,6 +3,8 @@
 # Recipe:: npm
 #
 
+# Install from source
+node.set['nodejs']['install_method'] = 'source'
 # Set the node version
 node.set['nodejs']['version'] = node['cookbook_npm']['nodejs']['version']
 
