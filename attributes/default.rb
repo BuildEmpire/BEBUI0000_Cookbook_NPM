@@ -4,7 +4,7 @@ default['cookbook_npm']['symlinks'] = []
 
 # Set the default node version and matching  SHA-256checksum
 default['cookbook_npm']['nodejs']['version'] = '0.12.4'
-default['cookbook_npm']['nodejs']['checksum'] = '3298D0997613A04AC64343E8316DA134D04588132554AE402EB344E3369EC912'
+default['cookbook_npm']['nodejs']['checksum'] = '3298d0997613a04ac64343e8316da134d04588132554ae402eb344e3369ec912'
 
 # Create an array of npm packages to install
 default['cookbook_npm']['npm_packages'] = []
