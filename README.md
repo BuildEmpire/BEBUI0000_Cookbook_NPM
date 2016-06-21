@@ -1,2 +1,2 @@
 # BEBUI0000_Cookbook_NPM
-A cookbook to install node, but also allow for npm module and symlinks to be setup
+Uses the default Node and NPM Chef library (https://github.com/redguide/nodejs), but also allows packages to be installed via the JSON.
